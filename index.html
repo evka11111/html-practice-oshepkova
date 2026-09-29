@@ -2,28 +2,34 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Мои практические работы по HTML</title>
-    <style>
-        body { font-family: Arial, sans-serif; text-align: center; margin-top: 50px; }
-        .btn {
-            display: inline-block;
-            padding: 15px 30px;
-            margin: 10px;
-            background-color: #007bff;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-            font-size: 18px;
-        }
-        .btn:hover { background-color: #0056b3; }
-    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная</title>
+    <link rel="icon" href="image.png">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Добро пожаловать!</h1>
-    <p>Выберите практическую работу:</p>
-    
-    <a href="practice-1.html" class="btn">Практическая работа 1</a>
-    <a href="practice-2.html" class="btn">Практическая работа 2</a>
-    <a href="practice-3.html" class="btn">Практическая работа 3</a>
+
+    <div id="menu-container">
+        
+        <form id="form1" action="https://yandex.ru/" target="_blank">
+            <button class="menu-btn">
+                <p class="btn-text">Browser</p>
+            </button>
+        </form>
+
+        <form id="form2" action="https://www.tiktok.com/?ysclid=mu5crrzwaf692845192" target="_blank">
+            <button class="menu-btn">
+                <p class="btn-text">Video</p>
+            </button>
+        </form>
+
+        <form id="form3" action="https://igroutka.ru/winx/21583-vinks-klub-odevalka.html" target="_blank">
+            <button class="menu-btn">
+                <p class="btn-text">Game</p>
+            </button>
+        </form>
+
+    </div>
+
 </body>
 </html>
